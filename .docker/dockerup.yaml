@@ -1,17 +1,26 @@
-# providerxyz :: docker-compose
+# addressxyz :: docker-compose
 
 networks:
-  providerxyz_localhost:
+  addressxyz_localhost:
 
 services:
-  web:
+  api:
+    depends_on:
+      - db
     deploy:
       replicas: 1
-    image: providerxyz
+    image: addressxyz
     networks:
-      - providerxyz_localhost
+      - addressxyz_localhost
     ports:
       - 10080:80
       - 10443:443
+
+  db:
+    deploy:
+      replicas: 1
+    image: postgres
+    networks:
+      - addressxyz_localhost
 
 version: '3.7'
