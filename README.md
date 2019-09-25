@@ -4,7 +4,7 @@
 [![code analysis](https://sonarcloud.io/api/project_badges/measure?project=addressxyz&metric=alert_status)](https://sonarcloud.io/dashboard?id=addressxyz)
 [![code coverage](https://sonarcloud.io/api/project_badges/measure?project=addressxyz&metric=coverage)](https://sonarcloud.io/dashboard?id=addressxyz)
 
-the housing provider service
+the address service
 
 ## maintainer
 
