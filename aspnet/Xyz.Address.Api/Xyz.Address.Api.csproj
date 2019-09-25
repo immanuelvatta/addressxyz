@@ -3,11 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <DebugType>Full</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xyz.Address.Lib\Xyz.Address.Lib.csproj" />
+    <ProjectReference Include="..\Xyz.Address.Dbx\Xyz.Address.Dbx.csproj" />
   </ItemGroup>
 
 </Project>

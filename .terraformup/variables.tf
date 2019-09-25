@@ -1,4 +1,4 @@
-# providerxyz :: terraform-variables
+# addressxyz :: terraform-variables
 
 ## VARIABLES
 variable "app_service" {

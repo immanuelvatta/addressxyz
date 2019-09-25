@@ -1,9 +1,10 @@
-# providerxyz :: dockerignore
+# addressxyz :: dockerignore
 
 ## angular
 **/dist/
 
 ## dotnet
+.vs/
 .vscode/
 bin/
 obj/
